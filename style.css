@@ -1,0 +1,17 @@
+body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+.container { width: 300px; }
+input { width: 100%; padding: 10px; box-sizing: border-box; }
+
+#strength-meter {
+    height: 8px;
+    width: 100%;
+    background-color: #eee;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+/* Colors for the bar */
+.weak { background-color: #ff4d4d; width: 33%; }
+.medium { background-color: #ffa500; width: 66%; }
+.strong { background-color: #2ecc71; width: 100%; }
